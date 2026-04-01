@@ -1,0 +1,20 @@
+{
+  "name": "bug-typia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "ts-patch install"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "typia": "^12.1.0-dev.20260325"
+    
+  },
+  "devDependencies": {
+    "ts-patch": "^3.3.0",
+    "typescript": "~5.9.3"
+  }
+}
